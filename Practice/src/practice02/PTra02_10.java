@@ -12,6 +12,9 @@ public class PTra02_10 {
 		int coffee = 120;	// コーヒーの値段
 		int snack = 200;	// スナック菓子
 
+		int sum;
+		double tax = 1.08;
+
 		/*
 		 * ●一本120円（税別）の缶コーヒーを2本
 		 * ●一袋200円（税別）のスナック菓子を1袋
@@ -22,5 +25,10 @@ public class PTra02_10 {
 		 * ※ プログラムは何行書いても良いです
 		 */
 
+		sum = coffee * 2 + snack;
+
+//		sum = (int)(sum * tax);
+
+		System.out.println((int)(moneyInHand - sum * tax));
 	}
 }
