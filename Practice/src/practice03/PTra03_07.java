@@ -31,6 +31,12 @@ public class PTra03_07 {
 		 * ※ プログラムは何行書いても良いです
 		 */
 
+		if(num > 5 || 1 > num) {
+			System.out.println("選択したのは,1～5以外です");
+		} else {
+			System.out.println(num);
+		}
+
 
 	}
 }
