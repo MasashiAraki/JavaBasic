@@ -1,12 +1,12 @@
 package practice10;
-
-import java.util.Scanner;
 /*
  * PTra10_03.java
  *   作成	LIKEIT	2017
  *------------------------------------------------------------
  * Copyright(c) Rhizome Inc. All Rights Reserved.
  */
+
+import java.util.Scanner;
 
 public class PTra10_03 {
 
@@ -42,6 +42,9 @@ public class PTra10_03 {
 		us.password = str[3];
 
 		// ★ 変数usに格納されているインスタンスの、フィールドuserId, userNm, mail, passwordを出力してください
-		us.output();
+		System.out.println(us.userId);
+		System.out.println(us.userNm);
+		System.out.println(us.mail);
+		System.out.println(us.password);
 	}
 }
