@@ -23,6 +23,7 @@ public class Book {
 	 * @param pageSize	ページ数
 	 * @param publication	出版社
 	 */
+
 	Book(String title, String author, int price, int pageSize, String publication) {
 		this.title = title;
 		this.author = author;
