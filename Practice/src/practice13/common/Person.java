@@ -1,5 +1,5 @@
 /*
- * Person.java
+ * Person.javaj
  *   作成	LIKEIT	2017
  *------------------------------------------------------------
  * Copyright(c) Rhizome Inc. All Rights Reserved.
@@ -60,10 +60,10 @@ public class Person {
 	}
 	/**
 	 * メールアドレスを設定します
-	 * @param mail	設定したいメールアドレス
+	 * @param maildata	設定したいメールアドレス
 	 */
-	public void setMail(String mail) {
-		this.mail = mail;
+	public void setMail(String maildata) {
+		this.mail = maildata;
 	}
 	/**
 	 * パスワードを取得します
