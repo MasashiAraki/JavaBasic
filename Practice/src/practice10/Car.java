@@ -8,7 +8,7 @@ public class Car {
 
 
 	int run() {
-		gasoline -= 1;
+		this.gasoline -= 1;
 		if(gasoline >= 0) {
 			return  new Random().nextInt(15) + 1;
 		} else {
