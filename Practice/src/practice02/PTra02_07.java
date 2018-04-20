@@ -8,9 +8,6 @@ package practice02;
 
 public class PTra02_07 {
 	public static void main(String[] args) {
-		int answerNum;
-		int answerTarget;
-
 		int num = 97;
 		System.out.println("num:" + num);
 
@@ -18,10 +15,8 @@ public class PTra02_07 {
 		int target = 90;
 
 		// ★ 変数numを、変数targetの数字で割った商と余りを出力してください
-		answerNum = num / target;
-		System.out.println(answerNum);
+		System.out.println("商は" + num / target);
+		System.out.println("余りは" + num % target);
 
-		answerTarget = num % target;
-		System.out.println(answerTarget);
 	}
 }
