@@ -18,8 +18,11 @@ public class PTra15_02 {
 
 //		キャストで変換
 		Java2Month jRoom = (Java2Month)room;
+		String[] curriculum = jRoom.getCurriculum();
 
 		// 取得したカリキュラム情報を全て出力してください
-		System.out.println(room);
+		for(String str : curriculum) {
+			System.out.println(str);
+		}
 	}
 }
