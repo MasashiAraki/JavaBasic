@@ -1,8 +1,8 @@
 package practice13.common;
 
 public class Employee extends Person{
-	String departmentNm;	// 部署名
-	int departmentCnt;		// 部署人数
+	private String departmentNm;	// 部署名
+	private int departmentCnt;		// 部署人数
 
 
 	public String getDepartmentNm() {

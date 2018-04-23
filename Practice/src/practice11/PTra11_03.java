@@ -11,14 +11,14 @@ public class PTra11_03 {
 	/*
 	 * ★ PTra11_03クラスに、クラスフィールドでint型のnumberを定義してください
 	 */
-		int number;
+		static int number;
 	/*
 	 * ★ PTra11_03クラスのコンストラクタを引数なしで定義してください
 	 * ★ 処理は、クラスフィールドnumberに1を加算してください
 	 */
 
 		public PTra11_03() {
-			number ++;
+			this.number ++;
 		}
 
 	public static void main(String[] args) {

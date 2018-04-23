@@ -38,9 +38,9 @@ public class PTra13_09 {
 		// ★ 定数で定義されてい	る各データを使用して、Employeeインスタンスを３つ作成してください
 
 		// 配列生成
-		Employee[] employee = new Employee[3];
+		Employee[] employee = new Employee[NAMEDATA.length];
 
-		for(int i = 0; i < NAMEDATA.length; i ++) {
+		for(int i = 0; i < employee.length; i ++) {
 			// インスタンス
 			employee[i] = new Employee();
 
@@ -49,6 +49,17 @@ public class PTra13_09 {
 			employee[i].setPassword(PASSDATA[i]);
 			employee[i].setDepartmentNm(QUATERDATA[0][i]);
 			employee[i].setDepartmentCnt(Integer.parseInt(QUATERDATA[1][i]));
+		}
+
+//		出力
+		for(Employee emp : employee) {
+			System.out.println("---------------------------------");
+			System.out.println("ID:" + emp.getUserId());
+			System.out.println("名前：" + emp.getUserNm());
+			System.out.println("メールアドレス：" + emp.getMail());
+			System.out.println("パスワード：" + emp.getPassword());
+			System.out.println("部署：" + emp.getDepartmentNm());
+			System.out.println("部署人数：" + emp.getDepartmentCnt());
 		}
 	}
 }

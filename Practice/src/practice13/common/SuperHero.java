@@ -3,7 +3,7 @@ package practice13.common;
 public class SuperHero extends Hero{
 
 //	equipment 装備
-	Item equipment;
+	private Item equipment;
 
 
 	public Item getEquipment() {
@@ -14,6 +14,7 @@ public class SuperHero extends Hero{
 		this.equipment = equipment;
 	}
 
+	@Override
 	public int attack() {
 		return super.attack() +  equipment.getAdditionalDamage();
 	}
