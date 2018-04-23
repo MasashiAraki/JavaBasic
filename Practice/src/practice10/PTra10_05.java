@@ -52,7 +52,7 @@ public class PTra10_05 {
 //		count runメソッドの繰り返し数
 		int sum = 0, count = 0;
 
-		while(true) {
+		while(distance - sum > 0) {
 			int run = car.run();
 
 			if(run == -1) {
@@ -61,12 +61,6 @@ public class PTra10_05 {
 
 			sum  += run;
 			count ++;
-
-
-			if(sum >= distance) {
-				break;
-			}
-
 		}
 
 		if(car.gasoline == -1) {
