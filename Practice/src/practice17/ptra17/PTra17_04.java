@@ -18,10 +18,10 @@ public class PTra17_04 {
 
 		char[] array = str.toCharArray();
 
-		for(int i = 0; i < str.length(); i ++) {
-			System.out.print(array[i]);
+		for(char ch : array) {
+			System.out.print(ch);
 			try {
-				Thread.sleep(500);
+				Thread.sleep(250);
 			} catch (InterruptedException e) {
 				// エラー発生時に出力
 				System.out.println("エラーです");
